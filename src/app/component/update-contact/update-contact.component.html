@@ -1,0 +1,40 @@
+
+  
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="image">
+                <img src="https://salestack.in/admin/api/uploads/Product//1660628686Qz8l94Ic.png" class="img-fluid">
+
+            </div>
+        </div>
+        <div class="card">
+         
+          <div class="card-body">
+            <h5 class="card-title">Update Contact</h5>
+            <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" [(ngModel)]="contactdata.firstname" name="firstname" class="form-control" placeholder="First name" >
+                </div>
+                <div class="col">
+                  <input type="text" [(ngModel)]="contactdata.lastname" name="lastname" class="form-control" placeholder="Last name">
+                </div>
+                <div class="col">
+                  <input type="text" [(ngModel)]="contactdata.mobno" name="mobno" class="form-control" placeholder="Mobile NO">&nbsp;&nbsp;
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" [(ngModel)]="contactdata.city" name="city" class="form-control" id="inputCity">
+                </div>
+                <div class="text-center mt-2">
+                  <button type="submit" (click)="update()"  class="btn btn-primary">Update</button>&nbsp;
+                  <button type="submit" routerLink="/contactlist" class="btn btn-success">Back</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+              
+          

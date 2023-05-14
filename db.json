@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstname": "archana",
+      "lastname": "kulthe",
+      "mobno": 789456123,
+      "city": "Pune"
+    }
+  ],
+  "signup": [
+    {
+      "name": "archana",
+      "email": "archana@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "nitya",
+      "email": "nitya@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "name": "Archana",
+      "email": "ar@gmail.com",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "name": "archana",
+      "email": "archana@gmail.com",
+      "password": "archana",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
